@@ -24,7 +24,7 @@ class TestPlantillaWord {
 	    @BeforeAll
 	    public static void generateMSWordFile() throws Exception {
 	    	/**
-	    	 * El test comienza un documento llamado Quijote.docx
+	    	 * El test comienza creando un documento Word llamado Quijote.docx
 	    	 * El título será "Capítulo primero"
 	    	 * El texto del resto del documento depende del contenido de los ficheros subtitulo.txt y parrafo.txt
 	    	 */
@@ -35,7 +35,7 @@ class TestPlantillaWord {
 	        wordDocument.finishDocument();
 	    }
 	    /**
-	     * Verifica el contenido del fichero de texto creado
+	     * Verifica el contenido del documento Word creado
 	     * @throws Exception
 	     */
 	    @Test
