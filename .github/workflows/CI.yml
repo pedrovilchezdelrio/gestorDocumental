@@ -59,7 +59,7 @@ jobs:
 
   email:
     runs-on: ubuntu-latest
-    needs: publish
+    needs: test
     steps:
       - name: Enviando correo
         uses: dawidd6/action-send-mail@v3
