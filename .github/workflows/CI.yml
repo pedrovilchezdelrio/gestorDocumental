@@ -46,7 +46,7 @@ jobs:
     needs: test
     env:
       GITHUB_LOGIN: ${{ github.actor }}
-      GITHUB_PACKAGES: ${{ secrets.GGITHUB_TOKEN }}
+      GITHUB_PACKAGES: ${{ secrets.GGITHUB_TOKEN}}
       GITHUB_OAUTH: ${{ secrets.GGITHUB_TOKEN }}
     steps:
       - name: Clonando el repositorio y estableciendo el espacio de trabajo
